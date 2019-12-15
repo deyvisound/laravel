@@ -1,0 +1,6 @@
+Formulários. 
+
+
+Os formulários do Laravel só são submetidos quando inserimos dentre seus campos um token de controle. 
+Este token é inserido utilizando a função csrf_field(). 
+Caso estejamos utilizando o blade, basta adicionar as tag {{ csrf_field()  }}

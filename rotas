@@ -1,0 +1,21 @@
+
+Rotas no Laravel: 
+
+URL base:  "localhost:8000/"
+
+
+As rotas em "/routes/api.php", são utilizadas para API's, quando queremos utilizar nosso projeto como webservice. 
+
+As rotas em "/routes/console.php" são  utilizada para executar arquivos que executam comandos em console.
+
+A rotas em "/routes/web.php" são as routas das páginas, views e fluxos de nossa aplicação na web. 
+
+
+Exemplos de rotas: 
+
+ - get 
+ - post
+ - put (Utilizada para atualizar modelos)
+ 	é necessário colocar o seguinte trecho nos formulários para utilizar as rotas put: 
+ 	<input type="hidden" name="_method" value="put" />
+ 

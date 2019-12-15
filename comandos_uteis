@@ -1,0 +1,9 @@
+
+ - Criando projeto Laravel: 
+
+ composer create-project --prefer-dist laravel/laravel cursoLaravel 5.3
+
+
+ - executando projeto: 
+
+php artisan serve 

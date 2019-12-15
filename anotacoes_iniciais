@@ -1,0 +1,21 @@
+
+O .env, é um dos arquivos mais importantes do framework. 
+
+O diretório princinpal é o "app". Nele está toda lógica. 
+Dentro da pasta "app", inserimos nossos modelos. (Modelo exemplo: User.php). 
+Neste diretório também temos os midwares e controllers. 
+Todos os controllers herdarão o "app/controllers/Controller.php"
+
+A partir do Laravel 5.3, as rotas ficam em /routes
+
+Providers(arquivos de configuração)
+
+"/bootstrap/" Arquivos de inicialização e configuração da aplicação 
+
+
+migrations: Contém scripts de criação de tabelas/modelos. 
+seeds: Contém scripts de população de banco de dados. 
+
+"/public/" : Javascripts, Css's... Document_root do servidor
+
+"/resources/views/": autodescritiva, contém as views do sistema. 
