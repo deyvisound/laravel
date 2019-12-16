@@ -5,3 +5,4 @@ Para utilizar o controller na rota basta informa no segundo parametro da seguiin
 Route::get('/contato/{id?}', ['uses'=>'ContatoController@index']);
 
 Onde a rota '/contato' redireciona o fluxo para o método index, do controller ContatoController. 
+

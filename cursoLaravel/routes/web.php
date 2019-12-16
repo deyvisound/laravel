@@ -18,11 +18,6 @@ Route::get('/', function () {
 
 Route::get('/contato/{id?}', ['uses'=>'ContatoController@index']);
 
-Route::put('/contato', function () {
-	return "Contato PUT";
-});
+Route::put('/contato', ['uses'=>'ContatoController@editar']);
 
-Route::post('/contato', function () {
-	dd($_POST);
-	exit();
-});
+Route::post('/contato', ['uses'=>'ContatoController@criar']);
