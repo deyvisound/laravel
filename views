@@ -1,0 +1,18 @@
+Views
+
+Renderizando views.
+
+O Laravel possui o method "view()".
+
+No Laravel as views estão dentro do diretório "/resources/views/"
+
+Para passar parâmetros para a view, podemos utilizar a função "compact" no segundo parâmetro da função view.
+exemplo:
+
+return view("nomeDaView", compact('nomeDaVariavelNoEscopoDoMethodo')); 
+
+Tambem poderiamos simplesmente mandar os dados diretamente. Exemplo: 
+
+return view("nomeDaView", $nomeDaVariavelNoEscopoDoMethodo); 
+ou 
+return view("nomeDaView", ['dados' => [var1=>variavel1, var2=>verialvel2, ...]); 

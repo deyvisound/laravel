@@ -3,14 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Contato;
+
 
 class ContatoController extends Controller
 {
     public function index(Request $req){
 
+    	$contatoModel = new Contato();
+
     	$contatos = [
-    		["nome" => "Maria", "tel" => "123456789"],
-    		["nome" => "Pedro", "tel" => "789456189"],
+    		$contatoModel->lista()
     	];
 
 		return view("contato.index", compact('contatos')); 
