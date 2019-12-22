@@ -1,0 +1,22 @@
+
+Tinker: 
+
+Acessando o tinker: 
+
+php artisan tinker: 
+	
+	App\Contato::all(); //Listando todos os contatos com o tinker. 
+	
+	$contato = new App\Contato(); // Criando um novo objeto contato no tinker. 
+	// Preenchendo atributos
+	$contato->nome = "Deyvison Rodrigo";
+	$contato->tel = "84988878877";
+	$contato->email = "email@email.com";
+
+	//Salvando o contato no banco
+	$contato->save();
+
+	//Deletando contato criado. 
+	$con = App\Contato::find(id_contato);
+	$con->delete();
+

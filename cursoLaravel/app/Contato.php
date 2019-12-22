@@ -9,7 +9,8 @@ class Contato extends Model
 	public function lista(){
 		return (object) [
 			"nome" => "Deyvison Estevam",
-			"tel"=> "845698789"
+			"telefone"=> "845698789",
+			"email" => "deyvison@email.com"
 		];
 	}
 }

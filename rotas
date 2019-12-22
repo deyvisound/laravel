@@ -19,3 +19,9 @@ Exemplos de rotas:
  	é necessário colocar o seguinte trecho nos formulários para utilizar as rotas put: 
  	<input type="hidden" name="_method" value="put" />
  
+
+ Alias: 
+
+ Adicionando alias em rotas, facilita em eventuais mudanças de url de rotas. 
+ Route::get('admin/cursos', ['as'=> 'admin.cursos'])
+ Só iremos alterar o arquivo:  web.php

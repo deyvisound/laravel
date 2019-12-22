@@ -1,0 +1,19 @@
+
+
+Com migrations, conseguimos "versionar" a estrutura do banco de dados. 
+Conseguimos manipular e modelar o banco a patir de arquivos php. 
+
+
+Tudo que é criado/alterado no banco de dados, é adicionado ao método up(). 
+Tudo que é removido no banco, é adicionado no método dows(). 
+
+
+Comando para criar nova migração: 
+
+php artisan make:migration create_produtos_table --create=produtos
+
+obs: O "--create--" é para especificar que estamos criando, não é atualização de algo existente. 
+
+
+
+-- O comando php artisan migrate, executa os camandos no banco de dados.
