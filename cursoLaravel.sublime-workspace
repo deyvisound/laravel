@@ -12,46 +12,10 @@
 	"buffers":
 	[
 		{
-			"file": "cursoLaravel/database/migrations/2019_12_22_155031_create_cursos_table.php",
-			"settings":
-			{
-				"buffer_size": 780,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "cursoLaravel/routes/web.php",
-			"settings":
-			{
-				"buffer_size": 1310,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "cursoLaravel/resources/views/layout/_includes/css.blade.php",
-			"settings":
-			{
-				"buffer_size": 152,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "cursoLaravel/resources/views/layout/_includes/javascript.blade.php",
-			"settings":
-			{
-				"buffer_size": 358,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "cursoLaravel/resources/views/admin/cursos/index.blade.php",
 			"settings":
 			{
-				"buffer_size": 187,
+				"buffer_size": 1098,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -60,34 +24,25 @@
 			"file": "cursoLaravel/app/Http/Controllers/Admin/CursoController.php",
 			"settings":
 			{
-				"buffer_size": 314,
+				"buffer_size": 399,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "cursoLaravel/resources/views/contato/index.blade.php",
+			"file": "cursoLaravel/resources/views/admin/cursos/adicionar.blade.php",
 			"settings":
 			{
-				"buffer_size": 231,
+				"buffer_size": 439,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "cursoLaravel/resources/views/layout/site.blade.php",
+			"file": "cursoLaravel/resources/views/admin/cursos/_form.blade.php",
 			"settings":
 			{
-				"buffer_size": 826,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rotas",
-			"settings":
-			{
-				"buffer_size": 776,
+				"buffer_size": 1087,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -144,24 +99,26 @@
 	],
 	"file_history":
 	[
+		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/database/migrations/2019_12_22_155031_create_cursos_table.php",
+		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/routes/web.php",
+		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/resources/views/layout/_includes/css.blade.php",
+		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/resources/views/layout/_includes/javascript.blade.php",
+		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/app/Http/Controllers/Admin/CursoController.php",
+		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/resources/views/layout/site.blade.php",
+		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/rotas",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/elouquent",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/.env",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/database/migrations/2019_12_16_234202_create_contatos_table.php",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/app/Contato.php",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/migrations",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/database/migrations/2019_12_18_235014_create_produtos_table.php",
-		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/rotas",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/artisan",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/controllers",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/modelos",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/template_blade",
-		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/resources/views/layout/site.blade.php",
-		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/resources/views/layout/_includes/javascript.blade.php",
-		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/resources/views/layout/_includes/css.blade.php",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/views",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/resources/views/contato/index.blade.php",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/app/Http/Controllers/ContatoController.php",
-		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/routes/web.php",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/formularios",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/resources/views/welcome.blade.php",
 		"/home/deyvison/Documents/ambdev/workspaces/php/laravel/cursoLaravel/app/Http/Controllers/migrations",
@@ -190,6 +147,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\t\t\t\t\t\t\n",
 			"\t\n"
 		],
 		"highlight": true,
@@ -208,54 +166,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "cursoLaravel/database/migrations/2019_12_22_155031_create_cursos_table.php",
+					"file": "cursoLaravel/resources/views/admin/cursos/index.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 780,
+						"buffer_size": 1098,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								570,
-								570
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "cursoLaravel/routes/web.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1310,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1306,
-								1306
+								1098,
+								1098
 							]
 						],
 						"settings":
@@ -263,7 +191,35 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cursoLaravel/app/Http/Controllers/Admin/CursoController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -271,80 +227,25 @@
 				},
 				{
 					"buffer": 2,
-					"file": "cursoLaravel/resources/views/layout/_includes/css.blade.php",
+					"file": "cursoLaravel/resources/views/admin/cursos/adicionar.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 152,
+						"buffer_size": 439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								152,
-								152
+								277,
+								277
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "cursoLaravel/resources/views/layout/_includes/javascript.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 358,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								314,
-								314
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "cursoLaravel/resources/views/admin/cursos/index.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 187,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								158,
-								158
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -354,20 +255,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "cursoLaravel/app/Http/Controllers/Admin/CursoController.php",
+					"buffer": 3,
+					"file": "cursoLaravel/resources/views/admin/cursos/_form.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 314,
+						"buffer_size": 1087,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								204,
-								204
+								746,
+								746
 							]
 						],
 						"settings":
@@ -375,94 +276,10 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "cursoLaravel/resources/views/contato/index.blade.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 231,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "cursoLaravel/resources/views/layout/site.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 826,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								521,
-								521
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "rotas",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 776,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								776,
-								776
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
 					"type": "text"
 				}
 			]

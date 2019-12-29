@@ -9,7 +9,7 @@
 		<h3 class="center">Adicionar de Cursos</h3>		
 
 		<div class="row">
-			<form class="" action="{{ route('admin.cursos.salvar') }}" method="POST" enctype="multpart/form-data">
+			<form class="" action="{{ route('admin.cursos.salvar') }}" method="POST" enctype="multipart/form-data">
 				{{ csrf_field() }}
 
 				@include('admin.cursos._form')
