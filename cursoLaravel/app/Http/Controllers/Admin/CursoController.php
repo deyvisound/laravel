@@ -77,9 +77,15 @@ class CursoController extends Controller
 			$img->move($dir, $nomeImagem);
 
 			$dados["imagem"] = $dir."/".$nomeImagem;
-    	}
+    	}	
 
     	Curso::find($id)->update($dados);
+
+    	return redirect()->route('admin.cursos');
+    }
+
+    public function deletar($id){
+    	Curso::find($id)->delete();
 
     	return redirect()->route('admin.cursos');
     }
